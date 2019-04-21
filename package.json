@@ -1,0 +1,40 @@
+{
+  "name": "BackboneJS-AMD-Boilerplate",
+  "version": "1.0.0",
+  "description": "**NOTE:**  This is largely irrelevant since RequireJS now has [a shim to support older \"global\" style scripts][3].",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.0",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "backbone": "^1.4.0",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.4.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "style-loader": "^0.23.1",
+    "underscore": "^1.9.1",
+    "webpack-dev-server": "^3.3.1",
+    "write-file-webpack-plugin": "^4.5.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start:dev": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david0178418/BackboneJS-AMD-Boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david0178418/BackboneJS-AMD-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/david0178418/BackboneJS-AMD-Boilerplate#readme"
+}

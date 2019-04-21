@@ -8,7 +8,7 @@ define([
 		
 		return {
 			initialize : function() {
-
+				console.log( 'Wahoo!' );
 				var app = new MainView({
 					el : document.getElementById('content')
 				});

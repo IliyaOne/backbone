@@ -14,6 +14,7 @@ define([
 			template : _.template(/*loaded template*/),
 			
 			initialize : function() {
+				console.log( 'Wahoo!' );
 				this.render();
 			},
 			

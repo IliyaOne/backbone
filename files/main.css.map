@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/css/styles.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA","file":"main.css","sourcesContent":["#content{\n    background-color: bisque;\n    color:green;\n}\n"],"sourceRoot":""}
